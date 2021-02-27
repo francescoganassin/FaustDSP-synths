@@ -1,4 +1,5 @@
 declare type “MIDI Synth”;
+declare nvoices "8";
 
 import("stdfaust.lib");
 waveGenerator = hgroup("[0]Wave Generator",no.noise,os.triangle(freq),os.square(freq),os.sawtooth(freq) : ba.selectn(4,wave))
