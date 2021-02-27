@@ -1,3 +1,5 @@
+declare type = “MIDISynth”
+
 import("stdfaust.lib");
 waveGenerator = hgroup("[0]Wave Generator",no.noise,os.triangle(freq),os.square(freq),os.sawtooth(freq) : ba.selectn(4,wave))
 with{
