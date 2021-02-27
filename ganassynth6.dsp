@@ -1,3 +1,6 @@
+declare type = “MIDI Synth”;
+declare namee = “ganassynth6”;
+
 import("stdfaust.lib");
 waveGenerator = no.noise/34 + os.triangle(freq)
   with{
