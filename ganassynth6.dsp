@@ -1,4 +1,4 @@
-declare type “MIDI Synth”;
+
 declare name “ganassynth6”;
 
 import("stdfaust.lib");
