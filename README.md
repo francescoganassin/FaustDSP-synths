@@ -1,2 +1,2 @@
 # dsp
-A few dsp Faust files, just for test
+A selection of synth coded with Faust DSP
